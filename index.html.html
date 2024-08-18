@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="flightlogo1.png" type="image/x-icon"/>
+    <title>Southern Airways - Sign Up</title>
+    <style>
+        body {
+            background-image: url(backgroundimg.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .signup-container {
+            opacity: 0.8;
+            background-color: rgb(249, 168, 168);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            margin: 2rem 0;
+        }
+        h1 {
+            color: #003366;
+            margin-bottom: 1rem;
+        }
+        .tagline {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #004c99;
+        }
+        .terms {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 1rem;
+        }
+        .login-link {
+            margin-top: 1rem;
+        }
+        .login-link a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        
+        <h1>Southern Airways</h1>
+        <p class="tagline">Join us for a journey of a lifetime</p>
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Create Password" pattern="2781f492-751e-4854-a78b-11e69aac1d04" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit"><a href="flightlogin.html">Sign Up</a></button>
+        </form>
+        <p class="terms">By signing up, you agree to our Terms of Service and Privacy Policy</p>
+        <div class="login-link">
+            <p>Already have an account? <a href="flightlogin.html">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
